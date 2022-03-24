@@ -11287,6 +11287,7 @@ textarea.form-control-lg {
   }
 }
 .features-icons {
+  color: white;
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
@@ -11303,7 +11304,7 @@ textarea.form-control-lg {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+  background: url("https://res.cloudinary.com/practicaldev/image/fetch/s--miDmAFU9--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/sabqxqayf0078eqkp2mm.png") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -11331,6 +11332,9 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 
+.showcase {
+  color: white;
+}
 .showcase .showcase-text {
   padding: 3rem;
 }
@@ -11359,7 +11363,7 @@ header.masthead h1, header.masthead .h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+  background: url("https://res.cloudinary.com/practicaldev/image/fetch/s--miDmAFU9--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/sabqxqayf0078eqkp2mm.png") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;

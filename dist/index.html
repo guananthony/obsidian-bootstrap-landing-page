@@ -1,244 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Landing Page - Start Bootstrap Theme</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-light bg-light static-top">
-            <div class="container">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
-                <a class="btn btn-primary" href="#signup">Sign Up</a>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container position-relative">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6">
-                        <div class="text-center text-white">
-                            <!-- Page heading-->
-                            <h1 class="mb-5">Generate more leads with a professional landing page!</h1>
-                            <!-- Signup form-->
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- * * SB Forms Contact Form * *-->
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- This form is pre-integrated with SB Forms.-->
-                            <!-- To make this form functional, sign up at-->
-                            <!-- https://startbootstrap.com/solution/contact-forms-->
-                            <!-- to get an API token!-->
-                            <form class="form-subscribe" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                                <!-- Email address input-->
-                                <div class="row">
-                                    <div class="col">
-                                        <input class="form-control form-control-lg" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
-                                    </div>
-                                    <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
-                                </div>
-                                <!-- Submit success message-->
-                                <!---->
-                                <!-- This is what your users will see when the form-->
-                                <!-- has successfully submitted-->
-                                <div class="d-none" id="submitSuccessMessage">
-                                    <div class="text-center mb-3">
-                                        <div class="fw-bolder">Form submission successful!</div>
-                                        <p>To activate this form, sign up at</p>
-                                        <a class="text-white" href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                    </div>
-                                </div>
-                                <!-- Submit error message-->
-                                <!---->
-                                <!-- This is what your users will see when there is-->
-                                <!-- an error submitting the form-->
-                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- Icons Grid-->
-        <section class="features-icons bg-light text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-                            <h3>Fully Responsive</h3>
-                            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
-                            <h3>Bootstrap 5 Ready</h3>
-                            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 5 framework!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
-                            <h3>Easy to Use</h3>
-                            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Image Showcases-->
-        <section class="showcase">
-            <div class="container-fluid p-0">
-                <div class="row g-0">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-1.jpg')"></div>
-                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2>Fully Responsive Design</h2>
-                        <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-                    </div>
-                </div>
-                <div class="row g-0">
-                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-2.jpg')"></div>
-                    <div class="col-lg-6 my-auto showcase-text">
-                        <h2>Updated For Bootstrap 5</h2>
-                        <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!</p>
-                    </div>
-                </div>
-                <div class="row g-0">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-3.jpg')"></div>
-                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2>Easy to Use & Customize</h2>
-                        <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Testimonials-->
-        <section class="testimonials text-center bg-light">
-            <div class="container">
-                <h2 class="mb-5">What people are saying...</h2>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-1.jpg" alt="..." />
-                            <h5>Margaret E.</h5>
-                            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-2.jpg" alt="..." />
-                            <h5>Fred S.</h5>
-                            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-3.jpg" alt="..." />
-                            <h5>Sarah W.</h5>
-                            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Call to Action-->
-        <section class="call-to-action text-white text-center" id="signup">
-            <div class="container position-relative">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6">
-                        <h2 class="mb-4">Ready to get started? Sign up now!</h2>
-                        <!-- Signup form-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-subscribe" id="contactFormFooter" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row">
-                                <div class="col">
-                                    <input class="form-control form-control-lg" id="emailAddressBelow" type="email" placeholder="Email Address" data-sb-validations="required,email" />
-                                    <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Email Address is required.</div>
-                                    <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Email Address Email is not valid.</div>
-                                </div>
-                                <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    <p>To activate this form, sign up at</p>
-                                    <a class="text-white" href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
-                        <ul class="list-inline mb-2">
-                            <li class="list-inline-item"><a href="#!">About</a></li>
-                            <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Contact</a></li>
-                            <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
-                            <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
-                        </ul>
-                        <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2022. All Rights Reserved.</p>
-                    </div>
-                    <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
-                        <ul class="list-inline mb-0">
-                            <li class="list-inline-item me-4">
-                                <a href="#!"><i class="bi-facebook fs-3"></i></a>
-                            </li>
-                            <li class="list-inline-item me-4">
-                                <a href="#!"><i class="bi-twitter fs-3"></i></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!"><i class="bi-instagram fs-3"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<title>
+			Obsidian | Deno's first native GraphQL caching client and server module
+		</title>
+		<!-- Favicon-->
+		<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+		<!-- Bootstrap icons-->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<!-- Google fonts-->
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<!-- Core theme CSS (includes Bootstrap)-->
+		<link href="css/styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<!-- Navigation-->
+		<nav class="navbar navbar-dark bg-dark static-top">
+			<div class="container">
+				<a class="navbar-brand" href="#!"
+					><img
+						src="./assets/img/D31BBEA7-20FB-4647-BFDB-3843D2ABE1A0.PNG"
+						alt="obsidian-logo"
+						height="80px"
+						width="80px"
+				/></a>
+				<a class="btn btn-primary" href="#getstarted">Get Started</a>
+			</div>
+		</nav>
+		<!-- Masthead-->
+		<header class="masthead">
+			<div class="container position-relative">
+				<div class="row justify-content-center">
+					<div class="col-xl-6">
+						<div class="text-center text-white">
+							<!-- Page heading-->
+							<h1 class="mb-3">Obsidian</h1>
+							<h3 class="mb-3">
+								Deno's first native GraphQL caching client and server module
+							</h3>
+							<button
+								class="btn btn-primary btn-lg"
+								id="submitButton"
+								type="submit"
+							>
+								Learn More
+							</button>
+							<!-- Signup form-->
+							<!-- * * * * * * * * * * * * * * *-->
+							<!-- * * SB Forms Contact Form * *-->
+							<!-- * * * * * * * * * * * * * * *-->
+							<!-- This form is pre-integrated with SB Forms.-->
+							<!-- To make this form functional, sign up at-->
+							<!-- https://startbootstrap.com/solution/contact-forms-->
+							<!-- to get an API token!-->
+							<form
+								class="form-subscribe"
+								id="contactForm"
+								data-sb-form-api-token="API_TOKEN"
+							>
+								<!-- Email address input-->
+								<!-- <div class="row">
+									<div class="col-lg-6 justify-content-center">
+										<button
+											class="btn btn-primary btn-lg"
+											id="submitButton"
+											type="submit"
+										>
+											Learn More
+										</button>
+									</div>
+								</div> -->
+								<!-- Submit success message-->
+								<!---->
+								<!-- This is what your users will see when the form-->
+								<!-- has successfully submitted-->
+								<div class="d-none" id="submitSuccessMessage">
+									<div class="text-center mb-3">
+										<div class="fw-bolder">Form submission successful!</div>
+										<p>To activate this form, sign up at</p>
+										<a
+											class="text-white"
+											href="https://startbootstrap.com/solution/contact-forms"
+											>https://startbootstrap.com/solution/contact-forms</a
+										>
+									</div>
+								</div>
+								<!-- Submit error message-->
+								<!---->
+								<!-- This is what your users will see when there is-->
+								<!-- an error submitting the form-->
+								<div class="d-none" id="submitErrorMessage">
+									<div class="text-center text-danger mb-3">
+										Error sending message!
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Icons Grid-->
+		<section class="features-icons bg-dark text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+							<div class="features-icons-icon d-flex">
+								<i class="bi-window m-auto text-primary"></i>
+							</div>
+							<h3>Lightning-fast caching and fetching</h3>
+							<p class="lead mb-0">
+								Equipped to support scalable, highly performant applications
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+							<div class="features-icons-icon d-flex">
+								<i class="bi-layers m-auto text-primary"></i>
+							</div>
+							<h3>
+								Optimized caching strategies: normalization and destructuring
+							</h3>
+							<p class="lead mb-0">Obsidian's headlining caching strategy</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="features-icons-item mx-auto mb-0 mb-lg-3">
+							<div class="features-icons-icon d-flex">
+								<i class="bi-terminal m-auto text-primary"></i>
+							</div>
+							<h3>Intuitive developer tool: monitor performance</h3>
+							<p class="lead mb-0">Downloadable via Google Chrome</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Image Showcases-->
+		<section class="showcase bg-dark">
+			<div class="container-fluid p-0">
+				<div class="row g-0">
+					<div
+						class="col-lg-6 order-lg-2 text-white showcase-img"
+						style="
+							background-image: url('https://www.vector-networks.com/blog/wp-content/uploads/2016/05/Normalization-e1497448957800.png');
+						"
+					></div>
+					<div class="col-lg-6 order-lg-1 my-auto showcase-text">
+						<h2>Super cool feature #3 (out of order)</h2>
+						<p class="lead mb-0">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+							doloribus modi deserunt iusto recusandae nisi quae accusantium. Ea
+							numquam voluptas sint, alias voluptatibus tenetur libero?
+						</p>
+					</div>
+				</div>
+				<div class="row g-0">
+					<div
+						class="col-lg-6 text-white showcase-img"
+						style="
+							background-image: url('data:image/jpeg;base64,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');
+						"
+					></div>
+					<div class="col-lg-6 my-auto showcase-text">
+						<h2>Super cool feature #1</h2>
+						<p class="lead mb-0">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
+							ullam et corporis eveniet praesentium adipisci fuga hic. Vel,
+							dignissimos accusantium.
+						</p>
+					</div>
+				</div>
+				<div class="row g-0">
+					<div
+						class="col-lg-6 order-lg-2 text-white showcase-img"
+						style="
+							background-image: url('https://fs.buttercms.com/resize=width:940/LHw1Yft2TZ2ETWO0zdsL');
+						"
+					></div>
+					<div class="col-lg-6 order-lg-1 my-auto showcase-text">
+						<h2>Super cool feature #2</h2>
+						<p class="lead mb-0">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
+							soluta quidem est doloribus, adipisci dolor earum minima ipsam
+							incidunt accusamus, magnam deserunt natus libero facere?
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Testimonials-->
+		<section class="testimonials text-center bg-dark text-white">
+			<div class="container">
+				<h2 class="mb-5">Meet Our Team</h2>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="testimonial-item mx-auto mb-5 mb-lg-0">
+							<img
+								class="img-fluid rounded-circle mb-3"
+								src="https://images.ctfassets.net/a9237abdyvg9/2GDeLs0jA3u3jHJsIlBTGT/d06c08a6f7a8e1bbdb34d43d8d78bc5f/boredape1.jpeg?fm=webp"
+								alt="..."
+							/>
+							<h5>Ali F.</h5>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="testimonial-item mx-auto mb-5 mb-lg-0">
+							<img
+								class="img-fluid rounded-circle mb-3"
+								src="https://www.christies.com/img/LotImages/2021/HGK/2021_HGK_20909_0014_000(yuga_labs_bored_ape_yacht_club_8746112046).jpg?mode=max"
+								alt="..."
+							/>
+							<h5>Linda Z.</h5>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="testimonial-item mx-auto mb-5 mb-lg-0">
+							<img
+								class="img-fluid rounded-circle mb-3"
+								src="data:image/jpeg;base64,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"
+								alt="..."
+							/>
+							<h5>Yasir C.</h5>
+						</div>
+					</div>
+					<div class="col-lg-2"></div>
+					<div class="col-lg-4">
+						<div class="testimonial-item mx-auto mb-5 mb-lg-0">
+							<img
+								class="img-fluid rounded-circle mb-3"
+								src="https://lh3.googleusercontent.com/p_cj7wdCXVnWT18SUJjp-rgkcptSdiYmWjvbbCkYbitcREUzMb5cPJYtvY5ulKm9ZkUXr-oGcTp2y0zyMhufvhr-sZQeD_xXw5jR5w=w600"
+								alt="..."
+							/>
+							<h5>Yurii S.</h5>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="testimonial-item mx-auto mb-5 mb-lg-0">
+							<img
+								class="img-fluid rounded-circle mb-3"
+								src="https://watcher.guru/news/wp-content/uploads/2021/08/unnamed.png.webp"
+								alt="..."
+							/>
+							<h5>Anthony G.</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Call to Action-->
+		<section class="call-to-action text-white text-center" id="signup">
+			<div class="container position-relative">
+				<div class="row justify-content-center">
+					<div class="col-xl-6">
+						<h2 class="mb-4">Want to contribute? #proudlyOpenSource</h2>
+						<!-- Signup form-->
+						<!-- * * * * * * * * * * * * * * *-->
+						<!-- * * SB Forms Contact Form * *-->
+						<!-- * * * * * * * * * * * * * * *-->
+						<!-- This form is pre-integrated with SB Forms.-->
+						<!-- To make this form functional, sign up at-->
+						<!-- https://startbootstrap.com/solution/contact-forms-->
+						<!-- to get an API token!-->
+						<form
+							class="form-subscribe"
+							id="contactFormFooter"
+							data-sb-form-api-token="API_TOKEN"
+						>
+							<!-- Email address input-->
+							<div class="row">
+								<div class="col">
+									<input
+										class="form-control form-control-lg"
+										id="emailAddressBelow"
+										type="email"
+										placeholder="Email Address"
+										data-sb-validations="required,email"
+									/>
+									<div
+										class="invalid-feedback text-white"
+										data-sb-feedback="emailAddressBelow:required"
+									>
+										Email Address is required.
+									</div>
+									<div
+										class="invalid-feedback text-white"
+										data-sb-feedback="emailAddressBelow:email"
+									>
+										Email Address Email is not valid.
+									</div>
+								</div>
+								<div class="col-auto">
+									<button
+										class="btn btn-primary btn-lg disabled"
+										id="submitButton"
+										type="submit"
+									>
+										Submit
+									</button>
+								</div>
+							</div>
+							<!-- Submit success message-->
+							<!---->
+							<!-- This is what your users will see when the form-->
+							<!-- has successfully submitted-->
+							<div class="d-none" id="submitSuccessMessage">
+								<div class="text-center mb-3">
+									<div class="fw-bolder">Form submission successful!</div>
+									<p>To activate this form, sign up at</p>
+									<a
+										class="text-white"
+										href="https://startbootstrap.com/solution/contact-forms"
+										>https://startbootstrap.com/solution/contact-forms</a
+									>
+								</div>
+							</div>
+							<!-- Submit error message-->
+							<!---->
+							<!-- This is what your users will see when there is-->
+							<!-- an error submitting the form-->
+							<div class="d-none" id="submitErrorMessage">
+								<div class="text-center text-danger mb-3">
+									Error sending message!
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Footer-->
+		<footer class="footer bg-dark text-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+						<ul class="list-inline mb-2">
+							<li class="list-inline-item"><a href="#!">About</a></li>
+							<li class="list-inline-item">⋅</li>
+							<li class="list-inline-item"><a href="#!">Contact</a></li>
+							<li class="list-inline-item">⋅</li>
+							<li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+							<li class="list-inline-item">⋅</li>
+							<li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+						</ul>
+						<p class="text-muted small mb-4 mb-lg-0">
+							&copy; Your Website 2022. All Rights Reserved.
+						</p>
+					</div>
+					<div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+						<ul class="list-inline mb-0">
+							<li class="list-inline-item me-4">
+								<a href="#!"><i class="bi-facebook fs-3"></i></a>
+							</li>
+							<li class="list-inline-item me-4">
+								<a href="#!"><i class="bi-twitter fs-3"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#!"><i class="bi-instagram fs-3"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Bootstrap core JS-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- Core theme JS-->
+		<script src="js/scripts.js"></script>
+		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+		<!-- * *                               SB Forms JS                               * *-->
+		<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+		<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+	</body>
 </html>
